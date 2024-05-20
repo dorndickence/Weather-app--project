@@ -26,9 +26,9 @@ searchBtn.addEventListener("click", async () => {
     } else if (data.weather[0].main.toLowerCase() === "clear") {
         weatherIcon.src = "E09EDD46-2EBB-48FD-A4EE-836F11C62FB1.png";
     } else if (data.weather[0].main.toLowerCase() === "rain") {
-        weatherIcon.src = "img/20240514005114.png"; 
+        weatherIcon.src = "17A7D794-19B2-4EC2-A6B5-F97AFBF838C8.png"; 
     } else if (data.weather[0].main.toLowerCase() === "drizzle") {
-        weatherIcon.src = "17A7D794-19B2-4EC2-A6B5-F97AFBF838C8.png";
+        weatherIcon.src = "4AAD07BB-9866-4BA6-9799-976C18EE5296.png";
     } else if (data.weather[0].main.toLowerCase() === "mist") {
         weatherIcon.src = "img/20240514005108.png";
     }
