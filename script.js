@@ -22,7 +22,7 @@ searchBtn.addEventListener("click", async () => {
     const data = await checkWeather(city);
 
     if (data.weather[0].main.toLowerCase() === "clouds") {
-        weatherIcon.src = "img/20240514005108.png";
+        weatherIcon.src = "178CE396-152D-4F1E-83BE-452DC9A8BDB2.png";
     } else if (data.weather[0].main.toLowerCase() === "clear") {
         weatherIcon.src = "E09EDD46-2EBB-48FD-A4EE-836F11C62FB1.png";
     } else if (data.weather[0].main.toLowerCase() === "rain") {
