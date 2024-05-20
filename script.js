@@ -1,5 +1,5 @@
 const apiKey = "bf9eb8ecbabe50c04144078a67aabdbb";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Nairobi";
 
 const searchBox = document.querySelector(".searchinput");
 const searchBtn = document.querySelector(".searchbutton");
