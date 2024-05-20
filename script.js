@@ -24,7 +24,7 @@ searchBtn.addEventListener("click", async () => {
     if (data.weather[0].main.toLowerCase() === "clouds") {
         weatherIcon.src = "img/20240514005108.png";
     } else if (data.weather[0].main.toLowerCase() === "clear") {
-        weatherIcon.src = "img/20240519232749.png";
+        weatherIcon.src = "E09EDD46-2EBB-48FD-A4EE-836F11C62FB1.png";
     } else if (data.weather[0].main.toLowerCase() === "rain") {
         weatherIcon.src = "img/20240514005114.png"; 
     } else if (data.weather[0].main.toLowerCase() === "drizzle") {
