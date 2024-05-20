@@ -16,10 +16,11 @@ background-color:#222;
 
 .card {
 width:90%;
-max-width:470px;
+max-width:600px;
 margin:100px auto 0;
 padding:40px 35px;
 color:#fff;
+flex:1;
 background:linear-gradient(135deg, #00feba, #5b548a);
 border-radius:20px;
 text-align:center;
