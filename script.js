@@ -30,7 +30,7 @@ searchBtn.addEventListener("click", async () => {
     } else if (data.weather[0].main.toLowerCase() === "drizzle") {
         weatherIcon.src = "4AAD07BB-9866-4BA6-9799-976C18EE5296.png";
     } else if (data.weather[0].main.toLowerCase() === "mist") {
-        weatherIcon.src = "img/20240514005108.png";
+        weatherIcon.src = "A70A6DFE-866F-4D8D-A839-51E74A1E3C43.png";
     }
 });
 
